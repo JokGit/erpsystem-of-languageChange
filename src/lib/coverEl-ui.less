@@ -1,0 +1,116 @@
+// 覆盖居中dialog
+.el-dialog {
+    .el-dialog__body {
+        padding: 15px 30px;
+    }
+
+    .el-dialog__footer {
+        text-align: center;
+    }
+
+    .myButton {
+        line-height: 34px;
+        margin: 0 30px;
+        width: 100px;
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+
+    .myButton:last-of-type {
+        margin-right: 0;
+    }
+
+    .delSpan {
+        font-size: 16px;
+    }
+
+}
+
+// 覆盖输入框的字体
+.el-input {
+    font-size: 12px;
+}
+
+// 覆盖文本域
+.el-textarea {
+    font-size: 12px;
+}
+
+// 覆盖el-form
+.el-form {
+    .el-form-item {
+        margin-bottom: 10px;
+    }
+
+    .el-form-item__label {
+        font-size: 12px;
+    }
+
+    .el-form-item__content {
+        font-size: 12px;
+    }
+}
+
+// 覆盖单选按钮 
+.el-radio {
+    .el-radio__label {
+        font-size: 12px;
+        padding-left: 5px;
+    }
+}
+
+// 覆盖下拉框
+.el-select-dropdown {
+    .el-select-dropdown__item {
+        font-size: 12px;
+    }
+}
+
+// 覆盖分页器
+.el-pagination {
+    .el-pagination__sizes .el-input .el-input__inner {
+        font-size: 12px;
+    }
+
+    .el-pager li {
+        font-size: 12px;
+    }
+
+    button,
+    span:not([class*=suffix]) {
+        font-size: 12px;
+    }
+}
+
+// 覆盖时间选择
+.el-date-editor {
+    .el-range-input {
+        font-size: 12px;
+    }
+
+    .el-range-separator {
+        font-size: 12px;
+    }
+}
+
+// 覆盖table顶部的select列，解决居中不对齐问题
+.el-table-column--selection .cell {
+    padding-right: 10px;
+}
+
+// 全局设置,解决table框部分情况下表头与内容分割线不对齐情况
+.el-table.el-table--scrollable-y th.gutter {
+    display: table-cell !important;
+    width: 17px !important;
+}
+.el-table th.gutter {
+    display: table-cell !important;
+}
+
+// 覆盖时间选择
+// .el-date-editor--daterange.el-input,
+// .el-date-editor--daterange.el-input__inner,
+// .el-date-editor--timerange.el-input,
+// .el-date-editor--timerange.el-input__inner {
+//     width: 280px;
+// }

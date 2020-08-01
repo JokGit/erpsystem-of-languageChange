@@ -1,0 +1,81 @@
+/* 初始化标签 */
+body,
+div,
+span,
+ul,
+li,
+p,
+a,
+img,
+input,
+i,
+em,
+ins,
+del,
+h1,
+h2,
+h3,
+h4,
+strong {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 12px;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  letter-spacing:1px
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+i {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+.w {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.footer-w {
+  width: 990px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: block;
+  content: ".";
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+

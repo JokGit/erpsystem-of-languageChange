@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    function Parent(name,play){
+            this.name=name;
+            this.play=play;
+        }
+        function Child(name,play,age){
+            Parent.call(this,name,play);
+            this.age=age;
+        }
+        Child.prototype=Object.create(Parent.prototype);// 隔离了父类和子类的构造函数,父类的添加到了__proto__属性上
+        // Child.prototype.constructor=Child
+        let child=new Child("张三","玩",20);
+        let child2=new Child("李四","吃",10)
+       
+        console.log(child.constructor)
+</script>

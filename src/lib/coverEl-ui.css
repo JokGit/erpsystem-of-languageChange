@@ -1,0 +1,67 @@
+.el-dialog .el-dialog__body {
+  padding: 15px 30px;
+}
+.el-dialog .el-dialog__footer {
+  text-align: center;
+}
+.el-dialog .myButton {
+  line-height: 34px;
+  margin: 0 30px;
+  width: 100px;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+.el-dialog .myButton:last-of-type {
+  margin-right: 0;
+}
+.el-dialog .delSpan {
+  font-size: 16px;
+}
+.el-input {
+  font-size: 12px;
+}
+.el-textarea {
+  font-size: 12px;
+}
+.el-form .el-form-item {
+  margin-bottom: 10px;
+}
+.el-form .el-form-item__label {
+  font-size: 12px;
+}
+.el-form .el-form-item__content {
+  font-size: 12px;
+}
+.el-radio .el-radio__label {
+  font-size: 12px;
+  padding-left: 5px;
+}
+.el-select-dropdown .el-select-dropdown__item {
+  font-size: 12px;
+}
+.el-pagination .el-pagination__sizes .el-input .el-input__inner {
+  font-size: 12px;
+}
+.el-pagination .el-pager li {
+  font-size: 12px;
+}
+.el-pagination button,
+.el-pagination span:not([class*=suffix]) {
+  font-size: 12px;
+}
+.el-date-editor .el-range-input {
+  font-size: 12px;
+}
+.el-date-editor .el-range-separator {
+  font-size: 12px;
+}
+.el-table-column--selection .cell {
+  padding-right: 10px;
+}
+.el-table.el-table--scrollable-y th.gutter {
+  display: table-cell !important;
+  width: 17px !important;
+}
+.el-table th.gutter {
+  display: table-cell !important;
+}
