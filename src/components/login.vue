@@ -13,14 +13,13 @@
             <div class="signIn" v-show="signIn">
                <div class="info">
                   <li>
-                     <!-- <span>{{$languageText.LOGIN_user}}</span> -->
                      <!-- <span>{{$store.getters.getLanguageText.LOGIN_user}}</span> -->
                      <span v-myText="'LOGIN_user'"></span>
                      <input type="text" v-model="login.uCode" @input="uCodeChange" placeholder="请输入账号" />
                   </li>
                   <li>
-                     <!-- <span>{{$languageText.LOGIN_pwd}}</span> -->
-                     <span >{{$store.getters.getLanguageText.LOGIN_pwd}}</span>
+                     <!-- <span >{{$store.getters.getLanguageText.LOGIN_pwd}}</span> -->
+                     <span v-myText="'LOGIN_pwd'"></span>
                      <input type="password" v-model="login.uPassword" @input="uPasswordChange" placeholder="请输入密码" />
                   </li>
                   <li>
